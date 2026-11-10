@@ -34,7 +34,7 @@ YouTube video ve Shorts adresleri, doğrudan video dosyaları ve yt-dlp'nin dest
 ## Güncelleme ve kaldırma
 
 - Mac'te indirmeler bittikten sonra `Kur-Mac.command` dosyasını yeniden çalıştır. Homebrew bileşenlerini ayrıca `brew upgrade yt-dlp deno ffmpeg` ile güncelleyebilirsin. Windows'ta `Kur.bat` dosyasını yeniden çalıştır.
-- Eklenti dosyaları değiştiyse uzantılar sayfasından **Yeniden yükle** düğmesine bas.
+- Eklenti dosyaları değiştiyse uzantılar sayfasından **Yeniden yükle** düğmesine bas; açık **İndirmeler** sekmesini kapatıp tekrar aç.
 - Mac'te yerel yardımcıyı kaldırmak için Terminal'de proje klasöründen `./Kur-Mac.command --uninstall` çalıştır, ardından tarayıcı uzantısını kaldır. Windows'ta `.\Kur.bat -Kaldir` çalıştır. İndirilen videolar silinmez.
 
 ## Lisans
