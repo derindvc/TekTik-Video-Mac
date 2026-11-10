@@ -19,6 +19,10 @@ Windows x64 üzerinde [Kur.bat](Kur.bat) dosyasını çalıştır. İlk seferde 
 1. İndirme iznin olan bir videoyu aç ve araç çubuğundaki **TekTık Video** simgesine bas.
 2. İlerlemeyi simge rozetinden takip et. Simgeye sağ tıklayıp **İndirmeleri göster** seçeneğini açarak durumu görebilir ve kayıt klasörüne gidebilirsin. Bir video veya video bağlantısına sağ tıklayarak da indirmeyi başlatabilirsin.
 
+Bir bağlantıyı kopyaladıysan **İndirmeleri göster** ekranındaki alana yapıştırıp **MP3** veya **Video** seçerek indirebilirsin. YouTube Music tek parça bağlantıları ses dosyası olarak işlenir. yt-dlp'nin desteklediği erişilebilir SoundCloud ve Bandcamp parça bağlantıları da denenebilir; site desteği değişebilir. Çalma listesi yerine tek parça bağlantısı kullan.
+
+Spotify bağlantılarından ses dosyası indirilemez. Uygulama bu bağlantılar için açıklayıcı bir hata gösterir; Spotify içeriğini çevrimdışı dinlemek için Spotify'ın kendi özelliğini kullan.
+
 **İndirmeleri göster** ekranında sonraki indirmeler için kaliteyi, yalnızca ses (MP3) seçimini, en uzun video süresini ve kayıt klasörünü ayarlayabilirsin. Varsayılan seçim en iyi mevcut kalite, video ve ses, sınırsız süre ve Downloads klasörüdür. Süre sınırı seçildiğinde süresini bildirmeyen videolar da elenir. Video süresi ve tahmini kaynak boyutu biliniyorsa indirme satırında gösterilir. Son MP4 dosyası dönüşüm nedeniyle farklı büyüklükte olabilir.
 
 Oturum isteyen bir sayfada sağ tıklayıp **Bu sitenin oturum çerezleriyle indir** seçeneğini kullanabilirsin. Tarayıcı yalnızca ilgili site için çerez erişimi ister. Çerezler o indirme için geçici dosyada tutulup işlem sonunda silinir. Bu yol her sitenin erişim hatasını çözmeyebilir.
