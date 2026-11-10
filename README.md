@@ -1,6 +1,6 @@
 # TekTık Video
 
-TekTık Video, macOS ve Windows üzerinde Chrome veya Edge ile çalışan bir video indiricisidir. Eklenti simgesine bastığında açık sayfanın adresi bilgisayarındaki yerel yardımcıya iletilir ve indirme başlar. Mac'te varsayılan kayıt yeri **Downloads → TekTik Video** klasörüdür.
+TekTık Video, macOS üzerinde Chrome veya Edge ile çalışan bir video indiricisidir. Eklenti simgesine bastığında açık sayfanın adresi bilgisayarındaki yerel yardımcıya iletilir ve indirme başlar. Varsayılan kayıt yeri **Downloads → TekTik Video** klasörüdür.
 
 ## Mac kurulumu
 
@@ -9,10 +9,6 @@ TekTık Video, macOS ve Windows üzerinde Chrome veya Edge ile çalışan bir vi
 3. **Paketlenmemiş öğe yükle** seçeneğiyle bu projenin içindeki **`extension`** klasörünü seç. TekTık Video simgesini araç çubuğuna sabitle.
 
 macOS indirdiğin `.command` dosyasını engellerse Terminal'de proje klasörüne geçip `./Kur-Mac.command` çalıştırabilirsin. Kurulumdan sonra bu klasörü istediğin yerde tutabilirsin; eklenti yüklü kaldığı sürece `extension` klasörünü taşımaman gerekir.
-
-## Windows kurulumu
-
-Windows x64 üzerinde [Kur.bat](Kur.bat) dosyasını çalıştır. İlk seferde yt-dlp, Deno ve FFmpeg indirilir. Ardından Chrome veya Edge uzantılar sayfasında geliştirici modunu açıp `extension` klasörünü **Paketlenmemiş öğe yükle** ile seç.
 
 ## Kullanım
 
@@ -33,9 +29,9 @@ YouTube video ve Shorts adresleri, doğrudan video dosyaları ve yt-dlp'nin dest
 
 ## Güncelleme ve kaldırma
 
-- Mac'te indirmeler bittikten sonra `Kur-Mac.command` dosyasını yeniden çalıştır. Homebrew bileşenlerini ayrıca `brew upgrade yt-dlp deno ffmpeg` ile güncelleyebilirsin. Windows'ta `Kur.bat` dosyasını yeniden çalıştır.
+- İndirmeler bittikten sonra `Kur-Mac.command` dosyasını yeniden çalıştır. Homebrew bileşenlerini ayrıca `brew upgrade yt-dlp deno ffmpeg` ile güncelleyebilirsin.
 - Eklenti dosyaları değiştiyse uzantılar sayfasından **Yeniden yükle** düğmesine bas; açık **İndirmeler** sekmesini kapatıp tekrar aç.
-- Mac'te yerel yardımcıyı kaldırmak için Terminal'de proje klasöründen `./Kur-Mac.command --uninstall` çalıştır, ardından tarayıcı uzantısını kaldır. Windows'ta `.\Kur.bat -Kaldir` çalıştır. İndirilen videolar silinmez.
+- Yerel yardımcıyı kaldırmak için Terminal'de proje klasöründen `./Kur-Mac.command --uninstall` çalıştır, ardından tarayıcı uzantısını kaldır. İndirilen videolar silinmez.
 
 ## Lisans
 
