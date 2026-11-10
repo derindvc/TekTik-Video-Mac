@@ -23,7 +23,7 @@ PY
       rm "$dir/$manifest_name"
     fi
   done
-  rm -f "$install_dir/host_mac.py" "$install_dir/tools-mac.json"
+  rm -f "$install_dir/host_mac.py" "$install_dir/tools-mac.json" "$install_dir/folder.txt"
   rmdir "$install_dir" 2>/dev/null || true
   echo 'TekTık Video Mac yardımcısı kaldırıldı. Tarayıcı uzantısını ayrıca kaldırabilirsin.'
   exit 0
